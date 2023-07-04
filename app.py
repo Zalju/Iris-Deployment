@@ -17,7 +17,7 @@ app.config['UPLOAD_FOLDER']=IMG_FOLDER
 def index():
     return render_template('index.html')
 @app.route('/hello')
-def index():
+def mdyaf():
     return "hello"
 
 @app.route('/',methods=['GET','POST'])
