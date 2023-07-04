@@ -16,6 +16,9 @@ app.config['UPLOAD_FOLDER']=IMG_FOLDER
 @app.route('/')
 def index():
     return render_template('index.html')
+@app.route('/hello')
+def index():
+    return "hello"
 
 @app.route('/',methods=['GET','POST'])
 def home():
